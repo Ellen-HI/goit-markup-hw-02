@@ -42,8 +42,7 @@ ul {
     color: #4D5AE5;
 }
 
-.link,
-.nav-link {
+.link {
     color: #2E2F42;
     font-weight: 500;
     font-style: normal;
@@ -95,6 +94,7 @@ ul {
 }
 
 .main-btn {
+    cursor: pointer;
     background-color: #4D5AE5;
     color: #FFFFFF;
     font-weight: 500;
@@ -109,7 +109,23 @@ ul {
     background-color: #404BBF;
 }
 
-.subtitle h2 {
+.subtitle h3 {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: capitalize;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.subtitle p::first-letter {
+    text-transform: uppercase;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.subtitle-hero {
     color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
@@ -120,7 +136,6 @@ ul {
     text-align: center;
 }
 
-.subtitle h3,
 .subtitle-team h3 {
     color: #2E2F42;
     font-size: 20px;
@@ -132,38 +147,41 @@ ul {
     text-align: center;
 }
 
-.subtitle p::first-letter {
-    text-transform: uppercase;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-}
-
 .subtitle-team p {
-    font-weight: 400;
-    font-style: normal;
     text-transform: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
 }
-
 
 .subtitle-team {
     background-color: #F4F4FD;
 }
 
+.subtitle-portfolio h3 {
+
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: capitalize;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.subtitle-portfolio p {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
 .footer {
     background-color: #2E2F42;
 }
 
-.footer {
+.footer p {
     color: #FFFFFF;
     text-transform: none;
-    font-weight: 400;
-    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
