@@ -109,6 +109,10 @@ ul {
     background-color: #404BBF;
 }
 
+.subtitle-cards {
+    background-color: #FFFFFF;
+}
+
 .subtitle h3 {
     color: #2E2F42;
     font-size: 20px;
@@ -119,10 +123,14 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.subtitle p::first-letter {
-    text-transform: uppercase;
+.subtitle p {
+    text-transform: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.subtitle p::first-letter {
+    text-transform: uppercase;
 }
 
 .subtitle-hero {
@@ -131,7 +139,7 @@ ul {
     font-weight: 700;
     font-style: normal;
     text-transform: capitalize;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
 }
@@ -180,7 +188,7 @@ ul {
 }
 
 .footer p {
-    color: #FFFFFF;
+    color: #f4f4fd;
     text-transform: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -188,6 +196,6 @@ ul {
 }
 
 .footer p::first-letter {
-    color: #FFFFFF;
+    color: #f4f4fd;
     text-transform: uppercase;
 }
